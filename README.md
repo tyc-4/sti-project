@@ -1,5 +1,10 @@
 # STI Project Demo - Open Source IDS using RouterOS
 
+## Project Description
+This project is a prototype of an IDS that uses open-source and one-time license applications to monitor traffic flowing in a network. It will be able to flag out suspicous traffic and send an alert to the administrator. This alert is then picked up by TagUI, a RPA tool, to block the offending device off the network to prevent further attacks.
+
+The actions taken can be easily modified through the script as it uses TagUI, which has a human-language-like syntax that can be learnt quickly. Currently, it is configured to get the offending IP address and add a firewall rule on the router CLI to block off traffic from it. 
+
 ## Network Environment
 Main network: **192.168.88.0/24**
 
